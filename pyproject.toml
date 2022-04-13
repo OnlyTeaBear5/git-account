@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "git_account"
+version = "0.0.1"
+description = ""
+authors = [
+    "Tommy Bair <tombair15@gmail.com>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+git-account = "git_account.main:main"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

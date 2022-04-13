@@ -1,0 +1,1 @@
+"""Tool for switching between github accounts on ubuntu"""
