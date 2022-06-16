@@ -28,7 +28,7 @@ class GitCredentials:
     def write(self, path: str):
         with open(os.path.join(path, ".git-credentials"), 'w') as git_credentials:
             git_credentials.write(self.generate_credential_string())
-        with open(os.path.join(path, ".git-config"), 'w') as gitconfig:
+        with open(os.path.join(path, ".gitconfig"), 'w') as gitconfig:
             gitconfig.write(self.generate_git_config_string())
 
     def generate_credential_string(self):
