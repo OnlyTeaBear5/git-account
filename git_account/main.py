@@ -102,6 +102,7 @@ def add(args: Namespace, accounts: List[GitCredentials]):
 
 def add_parser(parser: ArgumentParser):
     parser.add_argument("--switch",
+                        "-s",
                         help="Switches credentials from one github account to another",
                         type=str,
                         default=None
